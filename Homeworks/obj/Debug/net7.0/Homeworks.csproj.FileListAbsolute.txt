@@ -1,0 +1,15 @@
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\bin\Debug\net7.0\Homeworks.exe
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\bin\Debug\net7.0\Homeworks.deps.json
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\bin\Debug\net7.0\Homeworks.runtimeconfig.json
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\bin\Debug\net7.0\Homeworks.dll
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\bin\Debug\net7.0\Homeworks.pdb
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.csproj.AssemblyReference.cache
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.AssemblyInfoInputs.cache
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.AssemblyInfo.cs
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.csproj.CoreCompileInputs.cache
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.dll
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\refint\Homeworks.dll
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.pdb
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\Homeworks.genruntimeconfig.cache
+C:\Users\Anna Hakobyan\Desktop\Homeworks\Homeworks\obj\Debug\net7.0\ref\Homeworks.dll
