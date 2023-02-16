@@ -52,7 +52,7 @@
                 Console.WriteLine("2 - false");
             }
             //////////////  25  //////////////
-            if((a + b > c) || (a + c > b) || (b + c > a))
+            if((a + b > c) && (a + c > b) && (b + c > a))
             {
                 Console.WriteLine("y = 1");
             }
@@ -423,7 +423,236 @@
                 y2 = 1;
             }
             Console.WriteLine(y2);
-
+            //////////////  151  //////////////
+            int x151 = lesson151(5);
+            Console.WriteLine("151 - " + x151);
+            //////////////  152  //////////////
+            long x152 = lesson152(5);
+            Console.WriteLine("152 - " + x152);
+            //////////////  153  //////////////
+            int x153 = lesson153(5);
+            Console.WriteLine("153 - " + x153);
+            //////////////  154  //////////////
+            long x154 = lesson154(5);
+            Console.WriteLine("154 - " + x154);
+            //////////////  155  //////////////
+            lesson155();
+            //////////////  156  //////////////
+            lesson156();
+            //////////////  157  //////////////
+            lesson157();
+            //////////////  158  //////////////
+            lesson158();
+            //////////////  159  //////////////
+            lesson159();
+            //////////////  160  //////////////
+            lesson160();
+            //////////////  161  //////////////
+            lesson161();
+            //////////////  162  //////////////
+            lesson162();
+            //////////////  163  //////////////
+            lesson163();
+            //////////////  164  //////////////
+            int x164 = lesson164(16);
+            Console.WriteLine("164 - " + x164);
+            //////////////  165  //////////////
+            bool x165 = lesson165(29);
+            Console.WriteLine("165 - " + x165);
+            //////////////  166  //////////////
+            byte x166 = lesson166(16);
+            Console.WriteLine("166 - " + x166);
+        }
+        static int lesson151(int n)
+        {
+            int sum = 0;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % n == 0)
+                {
+                    sum += i;
+                }
+            }
+            return sum;
+        }
+        static long lesson152(int n)
+        {
+            long mul = 1;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % n == 0)
+                {
+                    mul *= i;
+                }
+            }
+            return mul;
+        }
+        static int lesson153(int n)
+        {
+            int sum = 0;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % n == 2)
+                {
+                    sum += i;
+                }
+            }
+            return sum;
+        }
+        static long lesson154(int n)
+        {
+            long mul = 1;
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % n == 3)
+                {
+                    mul *= i;
+                }
+            }
+            return mul;
+        }
+        static void lesson155()
+        {
+            int sum = 0;
+            for (int i = 1; i <= 99; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    sum += i;
+                }
+            }
+            Console.WriteLine("155 - " + sum);
+        }
+        static void lesson156()
+        {
+            int mul = 1;
+            for (int i = 1; i <= 99; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    mul *= i;
+                }
+            }
+            Console.WriteLine("156 - " + mul);
+        }
+        static void lesson157()
+        {
+            int sum = 0;
+            for (int i = 1; i <= 999; i++)
+            {
+                if (i % 5 == 0)
+                {
+                    sum += i;
+                }
+            }
+            Console.WriteLine("157 - " + sum);
+        }
+        static void lesson158()
+        {
+            int mul = 1;
+            for (int i = 1; i <= 999; i++)
+            {
+                if (i % 2 != 0 || i % 3 != 0)
+                {
+                    mul *= i;
+                }
+            }
+            Console.WriteLine("158 - " + mul);
+        }
+        static void lesson159()
+        {
+            int mul = 1;
+            for (int i = 1; i <= 999; i++)
+            {
+                if (i % 3 == 1 || i % 4 == 2)
+                {
+                    mul *= i;
+                }
+            }
+            Console.WriteLine("159 - " + mul);
+        }
+        static void lesson160()
+        {
+            for (int i = 100; i <= 999; i++)
+            {
+                if (Math.Sqrt(i * 16) % 1 == 0)
+                {
+                    Console.WriteLine("160 - " + i);
+                    break;
+                }
+            }
+        }
+        static void lesson161()
+        {
+            for (int i = 1000; i <= 9999; i++)
+            {
+                if (Math.Sqrt(i * 26) % 1 == 0)
+                {
+                    Console.WriteLine("161 - " + i);
+                    break;
+                }
+            }
+        }
+        static void lesson162()
+        {
+            for (int i = 9999; i >= 1000; i--)
+            {
+                if (Math.Sqrt(i * 14) % 1 == 0)
+                {
+                    Console.WriteLine("162 - " + i);
+                    break;
+                }
+            }
+        }
+        static void lesson163()
+        {
+            for (int i = 9999; i >= 1000; i--)
+            {
+                if (Math.Sqrt(i * 18) % 1 == 0)
+                {
+                    Console.WriteLine("163 - " + i);
+                    break;
+                }
+            }
+        }
+        static int lesson164(int n)
+        {
+            int myInt = 0;
+            for (int i = 100; i <= 1000; i++)
+            {
+                if (Math.Sqrt(i) > n)
+                {
+                    myInt = i;
+                    break;
+                }
+            }
+            return myInt;
+        }
+        static bool lesson165(int n)
+        {
+            bool t = false;
+            for (int i = 0; i <= n; i++)
+            {
+                if (Math.Pow(3, i) == n)
+                {
+                    t = true;
+                    break;
+                }
+            }
+            return t;
+        }
+        static byte lesson166(int n)
+        {
+            byte y = 0;
+            for (int i = 0; i <= n; i++)
+            {
+                if (Math.Pow(4, i) == n)
+                {
+                    y = 1;
+                    break;
+                }
+            }
+            return y;
         }
     }
 }
