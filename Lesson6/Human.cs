@@ -9,16 +9,20 @@ namespace Registration
 {
     internal class Human
     {
-        public bool Validation(string myString)
+        enum Errors
+        {
+            IncorrectNameOrSurname,
+            IncorrectSurname
+        }
+        public void Validation(string myString)
         {
             for (int i = 0; i < myString.Length; i++)
             {
                 if (!(myString[i] >= 'a' && myString[i] <= 'z'))
                 {
-                    return false;
+                    throw new ArgumentException(nameof(Errors.IncorrectNameOrSurname));
                 }
             }
-            return true;
         }
         public byte CheckCount(char myChar, string myString)
         {

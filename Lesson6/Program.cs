@@ -20,26 +20,9 @@ namespace Registration
                 string name = Console.ReadLine();
                 Console.Write("Enter your surname: ");
                 string surname = Console.ReadLine();
-
                 Human human = new Human();
-
-                bool nameValid = human.Validation(name);
-                if (!nameValid)
-                {
-                    valid = false;
-                    Console.WriteLine(Errors.IncorrectName);
-                }
-
-                bool surnameValid = human.Validation(surname);
-                if (!surnameValid)
-                {
-                    valid = false;
-                    Console.WriteLine(Errors.IncorrectSurname);
-                }
-                if (!valid)
-                {
-                    return;
-                }
+                human.Validation(name);
+                human.Validation(surname);
                 Console.Write("Enter anyone char: ");
                 char myChar = Char.Parse(Console.ReadLine());
                 byte count = human.CheckCount(myChar, name + surname);
@@ -51,14 +34,7 @@ namespace Registration
             }
             finally
             {
-                if (valid)
-                {
-                    Console.WriteLine("Happy end");
-                }
-                else
-                {
-                    Console.WriteLine("Not happy end");
-                }
+                Console.WriteLine("Amen depqum Happy end");
             }
 
         }
