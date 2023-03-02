@@ -14,15 +14,16 @@ namespace Registration
             IncorrectNameOrSurname,
             IncorrectSurname
         }
-        public void Validation(string myString)
+        public bool Validation(string myString)
         {
             for (int i = 0; i < myString.Length; i++)
             {
-                if (!(myString[i] >= 'a' && myString[i] <= 'z'))
+                if (!(myString[i] >= 'a' && myString[i] <= 'z') && !(myString[i] >= 'A' && myString[i] <= 'Z'))
                 {
-                    throw new ArgumentException(nameof(Errors.IncorrectNameOrSurname));
+                    return false;
                 }
             }
+            return true;
         }
         public byte CheckCount(char myChar, string myString)
         {
