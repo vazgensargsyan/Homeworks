@@ -1,0 +1,15 @@
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\bin\Debug\net7.0\Lesson10.exe
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\bin\Debug\net7.0\Lesson10.deps.json
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\bin\Debug\net7.0\Lesson10.runtimeconfig.json
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\bin\Debug\net7.0\Lesson10.dll
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\bin\Debug\net7.0\Lesson10.pdb
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.csproj.AssemblyReference.cache
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.AssemblyInfoInputs.cache
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.AssemblyInfo.cs
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.csproj.CoreCompileInputs.cache
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.dll
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\refint\Lesson10.dll
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.pdb
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\Lesson10.genruntimeconfig.cache
+C:\Users\vazge\OneDrive\Desktop\Homeworks\Lesson10\obj\Debug\net7.0\ref\Lesson10.dll
