@@ -2,7 +2,7 @@
 {
     internal interface IDelivery
     {
-        public DateTime ShipTime { get; set; }
+        public int ShipTime { get; set; }
         public long TrackId { get; set; }
         public long OrderId { get; set; }
         public decimal ShipCoast { get; set; }

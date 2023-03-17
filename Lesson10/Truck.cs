@@ -10,11 +10,12 @@
         {
             Console.WriteLine("Shipping by 'Truck' company " + ShipTime + "days, if you want that press 2");
         }
-        public bool CheckWeight(int weight)
+        public bool CheckWeight(int weight, ref bool check)
         {
             if (weight >= MinWeight && weight <= MaxWeight)
             {
                 PrintInfo();
+                check = true;
                 return true;
             }
             return false;
