@@ -1,19 +1,28 @@
-﻿namespace Lesson13
+﻿using System.Runtime.CompilerServices;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace Lesson13
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("If you want see the film press Yes else press No");
-            string yesOrNo = Console.ReadLine();
             Film film = new Film();
-            if (yesOrNo == "Yes" || yesOrNo == "yes")
+            string yesOrNo = "Yes";
+            while (yesOrNo == "Yes" || yesOrNo == "yes" || yesOrNo == "y")
             {
-                film.printGenres();
-                int genre_key = Int32.Parse(Console.ReadLine());
-                film.printFilms(genre_key);
-                int film_key = Int32.Parse(Console.ReadLine());
-                film.printGeneralInfo(film_key);
+                Console.WriteLine("If you want see the film press Yes else press any key");
+                yesOrNo = Console.ReadLine();
+                if (yesOrNo == "Yes" || yesOrNo == "yes" || yesOrNo == "y")
+                {
+                    film.printGenres();
+                    int genre_key = Int32.Parse(Console.ReadLine());
+                    film.printFilms(genre_key);
+                    int film_key = Int32.Parse(Console.ReadLine());
+                    film.printGeneralInfo(film_key);
+                    Console.WriteLine("Please rate on a of 1-5");
+                    int rate = Int32.Parse(Console.ReadLine());
+                }
             }
         }
     }

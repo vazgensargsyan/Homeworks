@@ -9,7 +9,8 @@ namespace Lesson13
         public Hashtable filmToGenre { get; set; }
         public Hashtable filmToPrice { get; set; }
         public Dictionary<int, string> films { get; set; }
-        public List<int> watchList { get; set; }
+        public List<int> watchList = new List<int>();
+        public List<int> rate = new List<int>();
         public Film()
         {
             setValue();
@@ -38,8 +39,11 @@ namespace Lesson13
         {
             if (films.ContainsKey(film_key))
             {
+                Console.WriteLine("count 1 ---> " + watchList.Count());
                 Console.WriteLine("You are watch {0} film, it's {1} genre and it's costs {2}$.", films[film_key], genres[(int)filmToGenre[films[film_key]]], filmToPrice[films[film_key]]);
                 watchList.Add(film_key);
+                Console.WriteLine(watchList);
+                Console.WriteLine("count 2 ---> " + watchList.Count());
             }
             else
             {
